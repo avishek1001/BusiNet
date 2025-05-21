@@ -1,7 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-import BusinessProfile from '../models/businessProfile.js'
+import BusinessProfile from '../models/businessProfile.js';
+import Business from '../models/business.js'
+import Contact from '../models/contact.js'
 
 const router = express.Router();
 
